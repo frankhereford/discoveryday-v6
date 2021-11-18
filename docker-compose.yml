@@ -8,6 +8,6 @@ services:
       - db-data:/var/lib/postgresql/data
     environment:
       - POSTGRES_USER=frank
-      - POSTGRES_PASSWORD=atxroutes!@#
+      - POSTGRES_PASSWORD=atxroutes
 volumes:
   db-data:
